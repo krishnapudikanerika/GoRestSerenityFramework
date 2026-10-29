@@ -17,7 +17,7 @@ public class ConsolePage extends PageObject {
             By.id("rsq_send");
 
     public void navigateToConsole() throws InterruptedException {
-
+Thread.sleep(10000);
         $(consoleLink).waitUntilClickable()
                 .click();
     }
