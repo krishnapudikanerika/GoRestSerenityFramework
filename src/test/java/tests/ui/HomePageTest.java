@@ -9,7 +9,7 @@ import pages.HomePage;
 public class HomePageTest extends HomePage {
 
     @Test
-    void verifyHomePage() {
+    void verifyHomePage() throws InterruptedException {
 
         openHomePage();
 

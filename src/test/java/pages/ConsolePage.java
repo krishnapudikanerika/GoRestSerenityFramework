@@ -11,18 +11,18 @@ public class ConsolePage extends PageObject {
             By.linkText("Console");
 
     private final By urlTextBox =
-            By.id("rsq_url");
+            By.id("rsq-url");
 
     private final By sendButton =
             By.id("rsq_send");
 
     public void navigateToConsole() throws InterruptedException {
-        Thread.sleep(10000);
+
         $(consoleLink).waitUntilClickable()
                 .click();
     }
 
-    public void enterApiUrl(String apiUrl) {
+    public void enterApiUrl(String apiUrl) throws InterruptedException {
 
         $(urlTextBox)
                 .waitUntilVisible()

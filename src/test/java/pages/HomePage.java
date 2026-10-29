@@ -12,7 +12,7 @@ public class HomePage extends PageObject {
         openUrl(URLs.HOME);
     }
 
-    public void verifyHomePageTitle() {
+    public void verifyHomePageTitle() throws InterruptedException {
 
         Assertions.assertEquals(
                 UIData.HOME_PAGE_TITLE,
