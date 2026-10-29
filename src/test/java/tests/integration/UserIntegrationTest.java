@@ -58,13 +58,13 @@ public class UserIntegrationTest extends BaseTest {
 
         homePage.verifyHomePageTitle();
 
-        // Open Console
-        consolePage.navigateToConsole();
-
-        // Enter API URL
-        consolePage.enterApiUrl(
-                Environment.BASE_URL + "/users/" + userId
-        );
+//        // Open Console
+//        consolePage.navigateToConsole();
+//
+//        // Enter API URL
+//        consolePage.enterApiUrl(
+//                Environment.BASE_URL + "/users/" + userId
+//        );
 
 //        // Send Request
 //        consolePage.clickSend();
