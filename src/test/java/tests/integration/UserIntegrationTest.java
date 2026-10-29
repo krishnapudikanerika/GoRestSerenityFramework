@@ -22,7 +22,7 @@ public class UserIntegrationTest extends BaseTest {
     private final ConsolePage consolePage = new ConsolePage();
 
     @Test
-    void apiUiFlow() {
+    void apiUiFlow() throws InterruptedException {
 
         System.out.println("\n================================");
         System.out.println("INTEGRATION TEST STARTED");
